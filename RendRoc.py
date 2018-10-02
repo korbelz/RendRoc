@@ -2,7 +2,7 @@
 # RendRoc written by Korbelz
 # current scope: Spark Calc
 
-spark_ref = [0, 3333, 15000, 40000, 100000]
+spark_ref = [0, 500, 3333, 15000, 40000, 100000]
 
 tier = input("what tier are you reseaching? ")
 tier = int(tier)
@@ -27,3 +27,5 @@ war = (bonus/100)
 
 warleft = left - (war * spark_ref[tier])
 print (f'{warleft} sparks left with war bonus' )
+
+input('Press ENTER to exit')

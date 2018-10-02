@@ -10,7 +10,7 @@ tier = int(tier)
 #print (spark_ref[tier])
 
 done = input("what percent is the reseach complete? ")
-done = int(done)
+done = float(done)
 
 #print (done)
 

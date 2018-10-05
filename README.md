@@ -9,5 +9,5 @@ download this repo, then double click the RendRoc.py file to run it.
 
 Wiki has a screenshot: https://github.com/korbelz/RendRoc/wiki
 
-RendGeo is a direction finder, currently it will give you a vector outbound from the tree
+RendGeo is a direction finder, currently it will give you a compass heading between two points
 is wiki for picture of a compass: https://github.com/korbelz/RendRoc/wiki

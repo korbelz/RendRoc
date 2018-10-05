@@ -30,15 +30,15 @@ print (f'start location to end location bearing is {bearing}')
 
 
 print ("Conclave base to tree centerline is at 102 deg")
-print ("A number less than the tree is left, more then the tree is right")
+print ("A number less than the centerline is left, more then the centerline is right")
 
 
 print ("Rev base to tree centerline is at 344 deg")
-print ("A number less than the tree is left, more then the tree is right")
+print ("A number less than the centerline is left, more then the centerline is right")
 
 
 print ("Order base to tree centerline is at 226 deg")
-print ("A number less than the tree is left, more then the tree is right")
+print ("A number less than the centerline is left, more then the centerline is right")
 
 
 

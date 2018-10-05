@@ -18,25 +18,27 @@ y_two = int(y_two)
 rad = math.atan2 ((y_two - y_one),(x_two - x_one))
 #print (rad)
 
-bearing = 90 - (180/3.14) * rad
+bearing = math.degrees(rad)
 #print (bearing)
 
-Con_bearing = ((bearing) + 180)
-print ("Conclave tree is at 180 deg")
+compass =  360 % bearing
+if bearing < 0:
+    bearing = 360 + bearing
+
+print (f'Outbound from tree bearing {bearing}')
+
+
+print ("Conclave tree is outbound at 102 deg")
 print ("A number less than the tree is left, more then the tree is right")
-print (f'{Con_bearing} is the bearing you need to walk')
 
 
-Rev_bearing = ((bearing) + 315)
-print ("Rev tree is at 315 deg")
+print ("Rev tree is at outbound 344 deg")
 print ("A number less than the tree is left, more then the tree is right")
-print (f'{Rev_bearing} is the bearing you need to walk')
 
 
-Order_bearing = ((bearing) + 45)
-print ("Order tree is at 45 deg")
+print ("Order tree is at outbound 226 deg")
 print ("A number less than the tree is left, more then the tree is right")
-print (f'{Order_bearing} is the bearing you need to walk')
+
 
 
 input('Press ENTER to exit')

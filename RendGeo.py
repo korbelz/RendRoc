@@ -3,6 +3,7 @@
 #currnet scope: Direction finder
 import math
 
+
 x_one = input("what is current x? no decimals please: ")
 x_one = int(x_one)
 
@@ -25,18 +26,18 @@ compass =  360 % bearing
 if bearing < 0:
     bearing = 360 + bearing
 
-print (f'Outbound from tree bearing {bearing}')
+print (f'start location to end location bearing is {bearing}')
 
 
-print ("Conclave tree is outbound at 102 deg")
+print ("Conclave base to tree centerline is at 102 deg")
 print ("A number less than the tree is left, more then the tree is right")
 
 
-print ("Rev tree is at outbound 344 deg")
+print ("Rev base to tree centerline is at 344 deg")
 print ("A number less than the tree is left, more then the tree is right")
 
 
-print ("Order tree is at outbound 226 deg")
+print ("Order base to tree centerline is at 226 deg")
 print ("A number less than the tree is left, more then the tree is right")
 
 

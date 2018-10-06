@@ -11,4 +11,5 @@ RendRoc is a research spark calc
 Wiki has a screenshot: https://github.com/korbelz/RendRoc/wiki
 
 RendGeo is a direction finder, currently it will give you a compass heading to the tree and your target /loc
-is wiki for picture of a compass: https://github.com/korbelz/RendRoc/wiki
+
+wiki for picture of a compass: https://github.com/korbelz/RendRoc/wiki

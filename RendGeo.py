@@ -44,8 +44,8 @@ while i_loop < 5:
     y_one = int(y_one)
     heading_tree = tree(x_tree , y_tree , x_one , y_one)
     heading_target = target(x_two , y_two , x_one , y_one)
-    direction = heading_target - heading_tree
-    print (f' degrees offset {direction}')
+    #direction = heading_target - heading_tree
+    #print (f' degrees offset {direction}')
     #if direction < 0: 
     #    left_dir = abs(direction)
     #    print (f'turn {left_dir} degrees left from the tree to head toward target')

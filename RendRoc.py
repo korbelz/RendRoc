@@ -20,12 +20,15 @@ bonus = int(bonus)
 completed = spark_ref[tier] * (done/100)
 left = spark_ref[tier] - completed
 
-print(f'{left} sparks left with no war bonus')
-
 war = (bonus/100)
 #print (war)
-
 warleft = left - (war * spark_ref[tier])
-print (f'{warleft} sparks left with war bonus' )
+
+if war > 0:
+    print (f'{warleft} sparks left till complete' )
+else:
+    print(f'{left} sparks left with till complete')
+
+
 
 input('Press ENTER to exit')

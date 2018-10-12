@@ -16,7 +16,7 @@ print (f'You are gaining {human_total} percent today')
 remaining_spirit = (100000 - spark_tree)
 #print (remaining_sparks)
 
-daily_sparks = (remaining_sparks * faction_total)
+daily_sparks = (remaining_spirit * faction_total)
 print (f'daily spirit generation is {daily_sparks}')
 
 input('Press ENTER to exit')

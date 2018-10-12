@@ -13,10 +13,10 @@ faction_total = (outpost_per + 0.02)
 human_total = (faction_total * 100)
 print (f'You are gaining {human_total} percent today')
 
-remaining_sparks = (100000 - spark_tree)
+remaining_spirit = (100000 - spark_tree)
 #print (remaining_sparks)
 
 daily_sparks = (remaining_sparks * faction_total)
-print (f'daily spark generation is {daily_sparks}')
+print (f'daily spirit generation is {daily_sparks}')
 
 input('Press ENTER to exit')

@@ -11,7 +11,7 @@ i_loop = 0
 while i_loop < 5:
     print ("***")
     print ("%s crashed at:"%(server))
-    print ("time: ", datetime.datetime.now() )
+    print ("UTC time: ", datetime.datetime.now( datetime.timezone.utc).strftime("%Y-%m-%d %H:%M") )
     print ("***")
     input('Press ENTER to generate a new crash log')
     i_loop += 1

@@ -19,3 +19,5 @@ wiki for picture of a compass: https://github.com/korbelz/RendRoc/wiki
 
 **RendTree is a daily spirit generator calc.** 
 
+**ServerCrashed is a time stamp generator to easy server crash reporting.** 
+

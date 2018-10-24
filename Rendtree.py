@@ -36,6 +36,6 @@ while new_spirit_tree < 98000:
     new_spirit_tree = (new_daily_spirit + new_spirit_tree)
     days += 1
 
-print ("days remaining till you reach 98000 spirits: %s"%(days))
+print ("Days remaining until you reach 98000 spirits: %s"%(days))
 
 input('Press ENTER to exit')

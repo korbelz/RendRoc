@@ -2,7 +2,7 @@
 # RendRoc written by Korbelz
 # current scope: Spark Calc
 
-spark_ref = [0, 500, 3000, 15000, 40000, 100000]
+spark_ref = [0, 500, 3750, 15000, 40000, 100000]
 
 tier = input("what tier are you reseaching? ")
 tier = int(tier)

@@ -5,7 +5,7 @@ Python 3.7 command line tools for the video game rend: https://www.rendgame.com/
 
 download Python 3.7 here: https://www.python.org/
 
-download this repo, then double click the RendRoc.py or RendGeo.py file to run it. 
+download this repo, then double click any of the files ending in .py to run it. 
 
 **RendRoc is a research spark calc**
 
@@ -19,5 +19,7 @@ wiki for picture of a compass: https://github.com/korbelz/RendRoc/wiki
 
 **RendTree is a daily spirit generator calc.** 
 
-**ServerCrashed is a time stamp generator to easy server crash reporting.** 
+**ServerCrashed is a time stamp generator for easy server crash reporting.** 
+
+ServerCrashed now also does logging to a speadsheet file(CSV). It will contuine to log each crash log till the terminal is closed. 
 

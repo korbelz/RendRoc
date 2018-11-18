@@ -21,7 +21,7 @@ with open(f'{file_name}.csv', 'w') as csv_file:
 
 while i_loop < 24:
     print ("***")
-    print ("%s crashed at:"%(server))
+    print ("%s has crashed/DC'd at:"%(server))
     print ("UTC time: ", datetime.datetime.now( datetime.timezone.utc).strftime("%Y-%m-%d %H:%M") )
     print ("***")
     log_time = datetime.datetime.now( datetime.timezone.utc).strftime("%H:%M")

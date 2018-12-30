@@ -2,6 +2,12 @@
 # RendRoc written by Korbelz
 # current scope: Spark Calc
 
+
+print ('*** This app is a research spark calc ***')
+print ('*** Written by Korbelz ***')
+print ('*** Feedback/Bugs: Discord: Korbelz#3504 ***')
+input('Press ENTER to continue')
+
 spark_ref = [0, 500, 3750, 15000, 40000, 100000]
 
 tier = input("what tier are you reseaching? ")

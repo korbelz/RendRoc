@@ -5,6 +5,17 @@
 #sample user input current: V(X=100.367, Y=-831.936, Z=45.251)
 #RE line: '^A-Z(),=\s'
 
+
+print ('*** This app is a is a direction finder, currently it will give you a compass heading to the tree and your target /loc ***')
+print ('*** Press Ctrl + V to paste your /loc from in-game at the prompt ***')
+print ('*** Written by Korbelz ***')
+print ('*** Feedback/Bugs: Discord: Korbelz#3504 ***')
+print ('***')
+print ("Example of /loc from in-game: V(X=211.367, Y=-831.936, Z=45.251)")
+print ('***')
+input('Press ENTER to continue')
+
+
 import math
 import re
 

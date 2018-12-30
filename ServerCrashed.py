@@ -2,6 +2,12 @@
 #RendGeo written by Korbelz
 #current scope: Time stamp for server crashes
 
+
+print ('*** This app is a time stamp generator for easy server crash reporting. ***')
+print ('*** Written by Korbelz ***')
+print ('*** Feedback/Bugs: Discord: Korbelz#3504 ***')
+input('Press ENTER to continue')
+
 import datetime
 import csv
 

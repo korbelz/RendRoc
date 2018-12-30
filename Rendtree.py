@@ -1,6 +1,13 @@
 #comment section
 #RendGeo written by Korbelz
+#Feedback: Discord: Korbelz#3504
 #current scope: sparks per day
+
+
+print ('*** This app is a daily spirit generator calc ***')
+print ('*** Written by Korbelz ***')
+print ('*** Feedback/Bugs: Discord: Korbelz#3504 ***')
+input('Press ENTER to continue')
 
 spirit_tree = int(input("How many spirits does your tree have?: no commas please "))
 

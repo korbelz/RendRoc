@@ -44,7 +44,7 @@ def tree(x_tree , y_tree , x_one , y_one):
     #print (bearing_tree)
     if bearing_tree < 0:
         bearing_tree = 360 + bearing_tree
-    print (f'current location to tree is bearing {bearing_tree}')
+    print (f'current location to tree is bearing {bearing_tree} degrees')
     return bearing_tree
 
 def target(x_two , y_two , x_one , y_one):
@@ -54,7 +54,7 @@ def target(x_two , y_two , x_one , y_one):
     #print (bearing_target)
     if bearing_target < 0:
         bearing_target = 360 + bearing_target
-    print (f'current location to target is bearing {bearing_target}')
+    print (f'current location to target is bearing {bearing_target} degrees')
     return bearing_target
 
 while i_loop < 5:

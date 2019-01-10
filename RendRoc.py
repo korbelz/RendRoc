@@ -24,15 +24,20 @@ bonus = input("what is your war observation bonus? ")
 bonus = int(bonus)
 
 completed = spark_ref[tier] * (done/100)
-left = spark_ref[tier] - completed
 
-war = (bonus/100)
-#print (war)
-warleft = left - (war * spark_ref[tier])
+war = ((bonus/100) * spark_ref[tier])
+war_total = spark_ref[tier] - war 
+war_completed = war_total * (done/100) 
+#print (war_total)
+
+left = 0
+warleft = 0
 
 if war > 0:
+    warleft = war_total - war_completed
     print (f'{warleft} sparks left till complete' )
 else:
+    left = spark_ref[tier] - completed
     print(f'{left} sparks left with till complete')
 
 
